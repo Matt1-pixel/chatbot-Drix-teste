@@ -10,9 +10,25 @@ body{
     height: 100vh;
     background-color: black;
 }
-
-
-
+.container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+textarea {
+    resize: none;
+    border: none;
+    padding: 8px;
+    background-color: #3c3d46;
+    color: white;
+    outline: none;
+    font-size: 24px;
+    text-align: justify;
+}
+textarea:focus {
+    border: 1px solid #8257e5;
+}
 .resultado {
     height: 70%;
 }
